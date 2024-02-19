@@ -1,0 +1,231 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+main{
+    width: 100%;
+    height: 100vh;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 10px;
+    align-items: center;
+    position: fixed;
+    top:0;
+    width: 100%;
+    background-color:#08021cde;
+}
+span{
+    color:#e8c31ba5;
+    font-size: 30px;
+   text-transform: capitalize;
+    font-weight: 800;
+}
+ul{
+    display: flex; 
+}
+ul li{
+    list-style: none;
+    margin: 0px 25px;
+}
+li a  {
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 20px;
+    color: #fff;
+}
+a:hover{
+    color:#e8c31ba5;
+}
+
+.saccueil{
+    display: flex;
+   justify-content: space-around;
+   background-color:#08021cde;
+   height: 100vh;
+   
+}
+article{
+   
+ margin-right: 2%;
+ margin-top: 4%;
+}
+aside{
+ 
+  margin-left: 15%;
+  width: 50VW;
+ margin-top: 13%;
+}
+#cv{
+    list-style-type: none;
+    margin-top: 8%;
+    text-align: center;
+    border: 3px solid #e8c31ba5;max-width: 30%;
+    
+}
+.se{
+    color: #fff ;
+}
+h1{
+   
+    color: #fff;
+    font-size: 20px;
+}
+h2{
+  
+    color: #fff ;
+   margin-top: 2%;
+    font-size: 20px;
+}
+
+.ha{
+    font-size: 15px;
+    margin-top: 2%;
+}
+h3{
+    
+    color:  #e8c31ba5;
+    font-size: 20px;
+    margin-top: 2%;
+}
+#sap{
+   
+ 
+margin-top: 5%;
+ height: 95vh;
+ padding-top: 5%;
+
+}
+.dp{
+    text-align: center;
+   padding-top: 5%;
+}
+.h1p{
+    color: #000;
+    font-family: bahnschrift condensed;
+    font-size: 30px;
+  
+    
+}
+.pp{
+    border: 3px solid  #e8c31ba5;
+    width: 60vw;
+    height: 30vh;
+    margin-left: 20%;
+    padding-top: 2%;
+    border-radius: 10px;
+    font-weight: 700;
+    font-family: bahnschrift condensed;
+    font-size: 20px;
+    color: #000;
+}
+.h2p{
+    color: #000;
+    font-weight: 700;
+    font-family: bahnschrift condensed;
+    font-size: 25px;
+    text-align: center;
+}
+.competences{
+    display: flex;
+    margin-left: 27%;
+    gap: 30px;
+    margin-top: 2%;
+   
+}
+h4{
+    background-color:  #08021cde;
+    padding: 5px 10px;
+    font-weight: 700;
+    border-radius: 10px;
+    font-family: bahnschrift condensed;
+    color: #fff;
+}
+.discuter{
+    font-weight: 700;
+    margin-left: 28%;
+    margin-top: 2%;
+    font-family: bahnschrift condensed;
+}
+#sprojet{
+    height: 95vh;
+   padding-top: 5%;
+  ;
+ 
+ }
+.h1projet{
+    color: #000;
+    text-align: center;
+    font-size: 40px;
+}
+.h2projet{
+    text-align: center;
+    color: #000;
+
+}
+.container{
+    display: flex;
+   justify-content: space-around;
+    margin-top: 3%;
+   
+}
+ol{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    
+    margin-top: 2%;
+}
+#liprojet a {
+    color: #fff;
+    border: 2px solid #e8c31ba5 ;
+    padding: 10px;
+    background-color: #08021cde;
+}
+ #scontact{
+
+ height: 90vh;
+ padding-top: 2%;
+
+}
+ .h1contact{
+    color: #000;
+    text-align: center;
+    padding-top: 3%;
+    font-size: 40px;
+}
+ form{
+    margin-left: 33%;
+} 
+.divcon{
+    display: flex;
+}
+label{
+    color: #000;
+}
+input{
+  padding: 5px 150px;
+  margin: 5px;
+  border-radius: 10px;
+}
+.mc{
+    padding: 35px 160px;
+    border-radius: 10px; 
+}
+.pcontact{
+    text-align: center;
+    font-family:bahnschrift condensed;
+    font-weight: 700;
+    font-size: 25px;
+   margin-top: 1%;
+   color: #000;
+}
+footer{
+    background-color: #000;
+    text-align: center;
+    color: #e8c31ba5;
+    padding: 10px;
+    font-size:20px;
+}
